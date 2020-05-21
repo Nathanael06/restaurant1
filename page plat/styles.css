@@ -1,0 +1,308 @@
+body {
+    background: #373737;
+}
+.font {
+    background : url(../images/pasta-banner.jpeg) no-repeat ;
+    background-size: cover;
+    margin: 0 auto;
+    opacity: 0.6;
+    height: 400px;
+}
+.font h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* about */
+
+section#about {
+    display: flex;
+    justify-content: center;
+    background: #373737;
+}
+
+section#about {
+    margin: 0;
+}
+
+section#about div {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+section#about div h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: floralwhite;
+}
+
+.opening {background: #575757;}
+.mention {background: #474747;}
+.gastro {background: #575757;}
+
+
+
+
+
+/* page */
+
+
+/* container-fix */
+
+section#block {
+    display: flex;
+    justify-content: start;
+    color: floralwhite;
+}
+
+section#block .container-fix {
+    background: #676767;
+    margin: -300px 500px 100px 0%;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+
+section#block .container-fix h5 {
+    font-size: 25px;
+    margin: 20px 70px 10px 10px;
+
+}
+
+section#block .container-fix div {
+    line-height: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+section#block .container-fix div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: floralwhite;
+}
+
+section#block .container-fix div a:hover {
+    background: #575757;
+    color: #dddddd;
+}
+
+
+/* menu */
+
+section#menu {
+    
+    margin: 50px 0px 0px 0px; 
+    color: floralwhite;
+}
+
+section#menu img {
+    height: 350px;
+    margin-left: 350px;
+}
+
+
+
+/* card */
+
+
+.card {
+    display: flex;
+    background: #474747;
+    padding: 20px;   
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 325px;
+    margin-right: 20px;
+    
+}
+.card h6 {
+    color: floralwhite;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.card a:hover {
+    background: #575757;
+    color: #dddddd;
+}
+.card h1 {
+    color: #eeeeee;
+    font-size: 32px;
+
+}
+
+.card h4 {
+    color: #cccccc;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card div div {
+    color: #171717;
+    font-size: 20px;
+}
+
+
+
+
+
+section#entrées {
+    display: flex;
+    margin-bottom: 10px;    
+    margin-right: 20px;
+    flex-direction: column;
+
+}
+
+section#entrées .card { 
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+section#entrées .card div {
+    background: #575757;
+    width: 500px;
+}
+section#entrées .card img {
+    width: 400px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+
+
+section#plats {
+    display: flex;
+    margin-bottom: 10px;    
+    margin-right: 20px;
+    flex-direction: column;
+
+}
+
+section#plats .card { 
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+section#plats .card div {
+    background: #575757;
+    width: 500px;
+}
+section#plats .card img {
+    width: 400px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+
+section#fromage {
+    display: flex;
+    margin-bottom: 10px;    
+    margin-right: 20px;
+    flex-direction: column;
+
+}
+
+section#fromage .card { 
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+section#fromage .card div {
+    background: #575757;
+    width: 500px;
+}
+section#fromage .card img {
+    width: 400px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+
+
+
+section#dessert {
+    display: flex;
+    margin-bottom: 10px;    
+    margin-right: 20px;
+    flex-direction: column;
+
+}
+
+section#dessert .card { 
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+section#dessert .card div {
+    background: #575757;
+    width: 500px;
+}
+section#dessert .card img {
+    width: 400px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+header h1 { 
+    font-size: 80px;
+    text-transform: uppercase;
+    color: red;
+}
+header img {
+    height: 250px;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #575757;
+    text-align: center;
+    font-weight: bold;
+    color: floralwhite;
+    font-size: 18px;
+}

@@ -1,0 +1,174 @@
+body {
+    background-color: #373737;
+    color: floralwhite;
+}
+.font {
+    background : url(../images/pasta-banner.jpeg) no-repeat ;
+    background-size: cover;
+    margin: 0 auto;
+    opacity: 0.6;
+    height: 400px;
+}
+.font h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/* about */ 
+
+section#about {
+    display: flex;
+    justify-content: center;
+    background: #373737;
+}
+
+section#about {
+    margin: 0;
+}
+
+section#about div {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+section#about div h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.opening {background: #575757;}
+.mention {background: #474747;}
+.gastro {background: #575757;}
+
+
+
+
+
+
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+header h1 { 
+    font-size: 80px;
+    text-transform: uppercase;
+    color: red;
+}
+header img {
+    height: 250px;
+}
+
+
+
+
+
+/* page */
+
+section#block {
+    display: flex;
+    justify-content: start;
+}
+
+section#block .container-fix {
+    background: #676767;
+    margin: -200px 500px 100px 0%;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+
+
+/* container-fix */
+
+section#block {
+    display: flex;
+    justify-content: start;
+    color: floralwhite;
+}
+
+section#block .container-fix {
+    background: #676767;
+    margin: -300px 500px 100px 0%;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+
+section#block .container-fix h5 {
+    font-size: 25px;
+    margin: 20px 70px 10px 10px;
+
+}
+
+section#block .container-fix div {
+    line-height: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+section#block .container-fix div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: floralwhite;
+}
+
+section#block .container-fix div a:hover {
+    background: #575757;
+    color: #dddddd;
+}
+
+
+
+
+
+
+
+section#block .container {
+    background: #575757;
+    height: 300px;
+    margin: 30px 20px 50px 350px;
+    padding: 50px;
+    padding-right: 225px;
+    padding-bottom: 500px;
+}
+
+section#block .container h2 {
+    font-size: 50px;
+
+}
+
+
+section#block .container p {
+    font-size: 30px;
+}
+
+.container img {
+    margin-top: 150px;
+    margin-left: 75px;
+}
+
+
+
+
+footer {
+    background-color: #575757;
+    text-align: center;
+    font-weight: bold;
+    color: floralwhite;
+    font-size: 18px;
+}
